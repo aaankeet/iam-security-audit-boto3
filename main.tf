@@ -68,6 +68,11 @@ resource "aws_iam_role_policy" "auditor_policy" {
           "iam:ListMFADevices",
           "iam:GetLoginProfile",
           "iam:ListAccessKeys",
+          "iam:GetAccessKeyLastUsed",
+          "iam:ListUserPolicies",
+          "iam:GetUserPolicy",
+          "iam:ListGroupPolicies",
+          "iam:GetGroupPolicies",
           "iam:ListAttachedUserPolicies",
           "iam:ListGroupsForUser",
           "iam:ListAttachedGroupPolicies"
